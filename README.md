@@ -57,8 +57,10 @@ A decision forest  was built with default hypermeters: # of decision trees:8, Ma
 •At the fourth attempt, I still use decision forest regression but I tuned the decision forest regression hyperparameters.
 I used parameter range instead of single parameter. I also changed maximum number of runs on random sweep from 1 to 8. 
 The root mean squared error has been decreased from 0.5720 to 0.5439 
-
-
 ![Figure4 (7)](https://user-images.githubusercontent.com/49568184/118910156-032fe900-b8f2-11eb-94e7-1603c33a5eb8.jpg)
+
+
+# Result 
+![Figure 5](https://user-images.githubusercontent.com/49568184/118912484-dd0c4800-b8f5-11eb-8f0a-9d5e3f53a275.jpg)
 
 ![Figure4 (10)](https://user-images.githubusercontent.com/49568184/118910137-01662580-b8f2-11eb-9fa0-ddcbce78989b.jpg)
