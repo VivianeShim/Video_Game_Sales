@@ -39,13 +39,26 @@ I created a bar plot to visualize their sale rates by grouping different market.
  •I wanted to imporve my model so I cleaned the dataset and used feature enginnering. 
  I only found 3 records for the year 2017 and 1 record for the year 2020. I revmoed the years 2017 and 2020 from my dataset.
  There is a dramatic drop of Global Sales after 2015. I can say that this is due to a lack of the dataset.
- 
-![Figure4 (2)](https://user-images.githubusercontent.com/49568184/118910147-02975280-b8f2-11eb-8e16-8dedc2c631c0.jpg)
-![Figure4 (3)](https://user-images.githubusercontent.com/49568184/118910148-02975280-b8f2-11eb-883f-4fff06e11ad4.jpg)
-![Figure4 (4)](https://user-images.githubusercontent.com/49568184/118910149-02975280-b8f2-11eb-9f33-089ad8b68b47.jpg)
+![K-001](https://user-images.githubusercontent.com/49568184/118911513-4ab77480-b8f4-11eb-991f-c346cf65b1c6.jpg)
+
+ •There are 271 missing values for the column “year”.
+The graph is not normally distributed so I decided to fill it by median. 
+
+![K-002](https://user-images.githubusercontent.com/49568184/118911515-4ab77480-b8f4-11eb-9584-9f3bb09d134c.jpg)
+
+ •I have many categories for the column “publisher” so I tried to find top 10 publishers and converted top 10 publishers to 1 ~ 10. I coverted other publishers to 11. I also decided to delete column “Name” because there are too many categories. 
+![K-003](https://user-images.githubusercontent.com/49568184/118911516-4b500b00-b8f4-11eb-9f92-c10d3b749609.jpg)
+
+ •At the third attempt, I changed the model to decision forest regression. 
+A decision forest  was built with default hypermeters: # of decision trees:8, Maximum depth of the decision trees: 32, Number of random splits per nodes: 128, Minimum number of samples per leaf node: 1. The root mean squared error has been decreased from 0.6255 to 0.5720 
 ![Figure4 (5)](https://user-images.githubusercontent.com/49568184/118910152-02975280-b8f2-11eb-876f-5ef564580dad.jpg)
 ![Figure4 (6)](https://user-images.githubusercontent.com/49568184/118910153-032fe900-b8f2-11eb-87c9-0110051f19b6.jpg)
+
+•At the fourth attempt, I still use decision forest regression but I tuned the decision forest regression hyperparameters.
+I used parameter range instead of single parameter. I also changed maximum number of runs on random sweep from 1 to 8. 
+The root mean squared error has been decreased from 0.5720 to 0.5439 
+
+
 ![Figure4 (7)](https://user-images.githubusercontent.com/49568184/118910156-032fe900-b8f2-11eb-94e7-1603c33a5eb8.jpg)
-![Figure4 (8)](https://user-images.githubusercontent.com/49568184/118910157-032fe900-b8f2-11eb-8e03-8255b23fc1d6.jpg)
-![Figure4 (9)](https://user-images.githubusercontent.com/49568184/118910159-032fe900-b8f2-11eb-9c10-c924e7dff446.jpg)
+
 ![Figure4 (10)](https://user-images.githubusercontent.com/49568184/118910137-01662580-b8f2-11eb-9fa0-ddcbce78989b.jpg)
