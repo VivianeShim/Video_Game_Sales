@@ -30,8 +30,6 @@ I created a bar plot to visualize their sale rates by grouping different market.
 
 ## Machine Learning 
 
-## 
-
  •At the first attempt, I used linear regression model. We got 0.64 root mean squred error.
  
 ![Figure4 (1)](https://user-images.githubusercontent.com/49568184/118910146-02975280-b8f2-11eb-9fee-b3dc68f5b0bd.jpg)
@@ -60,6 +58,6 @@ The root mean squared error has been decreased from 0.5720 to 0.5439
 ![Figure4 (7)](https://user-images.githubusercontent.com/49568184/118910156-032fe900-b8f2-11eb-94e7-1603c33a5eb8.jpg)
 
 
-# Result 
+## Result 
 ![Figure 5](https://user-images.githubusercontent.com/49568184/118912484-dd0c4800-b8f5-11eb-8f0a-9d5e3f53a275.jpg)
 
