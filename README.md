@@ -9,7 +9,7 @@
 
 
 ## Business Problem
-What is the trend of global video game industry and how accurately can we predict video games sales?
+What is the trend of global video game industry and how accurately can we improve the model?
 
 ## The trend
 
@@ -63,4 +63,3 @@ The root mean squared error has been decreased from 0.5720 to 0.5439
 # Result 
 ![Figure 5](https://user-images.githubusercontent.com/49568184/118912484-dd0c4800-b8f5-11eb-8f0a-9d5e3f53a275.jpg)
 
-![Figure4 (10)](https://user-images.githubusercontent.com/49568184/118910137-01662580-b8f2-11eb-9fa0-ddcbce78989b.jpg)
