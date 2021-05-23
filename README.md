@@ -42,7 +42,8 @@ I created a bar plot to visualize their sale rates by grouping different market.
  •There are 271 missing values for the column “year”.
 The graph is not normally distributed so I decided to fill it by median. 
 
-![K-002](https://user-images.githubusercontent.com/49568184/118911515-4ab77480-b8f4-11eb-9584-9f3bb09d134c.jpg)
+![K-002](https://user-images.githubusercontent.com/49568184/119276285-ffe57780-bbe7-11eb-8982-198669225405.jpg)
+
 
  •I have many categories for the column “publisher” so I tried to find top 10 publishers and converted top 10 publishers to 1 ~ 10. I coverted other publishers to 11. I also decided to delete column “Name” because there are too many categories. 
 ![K-003](https://user-images.githubusercontent.com/49568184/118911516-4b500b00-b8f4-11eb-9f92-c10d3b749609.jpg)
